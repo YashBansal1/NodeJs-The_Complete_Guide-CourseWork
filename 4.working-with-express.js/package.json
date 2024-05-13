@@ -1,5 +1,5 @@
 {
-  "name": "4.workig-with-express.js",
+  "name": "4.working-with-express.js",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -13,6 +13,7 @@
     "nodemon": "^3.1.0"
   },
   "dependencies": {
+    "body-parser": "^1.20.2",
     "express": "^4.19.2"
   }
 }
