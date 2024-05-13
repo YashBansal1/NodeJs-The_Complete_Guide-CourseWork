@@ -17,3 +17,7 @@ Running Node.js code -
 2. Execute files
 
 # Understanding the basics
+
+![alt text](image.png)
+
+Express is all about middleware. Middleware means that an incoming requests is automatically funneled through a bunch of functions by express.js. So instead of having just one request handler, we will actually have a possibility of hooking in multiple functions which the request will go through until you send a response. This allows us to split our code into multiple blocks or pieces instead of having one huge function that does everything.
