@@ -105,3 +105,13 @@ Express is all about middleware. Middleware means that an incoming requests is a
 
 It is best practice to put all the routing related code for different paths and https methods into one folder separate from our main code.
 Views folder of our project contains only the html files that need to be served.
+
+# 5. Working with Dynamic Content & Adding Templating Engines
+
+Dynamic content means that the content of the page is not static. It can change based on the data that is being sent.
+
+We have HTMLish Template which is our html files with the placeholders, and then we have our node/express content, and then there is templating engine which understands a certain syntax for which is scans your html-ish template and where it then replaces placeholders or certain snippets depending on the engine we are using with the real html content but that html content it uses is generated on the fly, on the server by the templating engine taking that dynamic content in account.
+Available templating engine- EJS, Pug(Jade), Handlebars.
+Templates are not the part of server side code.
+
+Pug - we can extend the pug layout from inside our other pug views and we can define some placeholder, some hook in the layout where the other layout can extend their content.
