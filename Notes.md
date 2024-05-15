@@ -115,3 +115,13 @@ Available templating engine- EJS, Pug(Jade), Handlebars.
 Templates are not the part of server side code.
 
 Pug - we can extend the pug layout from inside our other pug views and we can define some placeholder, some hook in the layout where the other layout can extend their content.
+
+# 6. MVC
+
+MVC - It is about separation of concerns. So different part do different things and its easy to figure out what is responsible for what.
+Models- These are basically objects or is a part of our code that is responsible for representing our data, allowing us to work with that data.
+So things like saving data, fetching data to or from a file or even if it's just in memory.
+Views - These are the html files that are responsible for rendering the data that we get from the models. These are decoupled from our application code and just having some light or minor integrations regarding the data we inject into our templating engine to generate these views.
+
+Controllers - These are the functions that are responsible for handling the incoming requests and then sending the response. These are the connection point between the model and the views.
+It is split across our middleware functions.
