@@ -125,3 +125,6 @@ Views - These are the html files that are responsible for rendering the data tha
 
 Controllers - These are the functions that are responsible for handling the incoming requests and then sending the response. These are the connection point between the model and the views.
 It is split across our middleware functions.
+
+9. Dynamic Routes and Advanced Models
+   For get requests we can't put the data in post body but only pass it through the url but in post request we can pass the data directly through the post body.
