@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1",
+    "title": "   And Then There Were None   ",
+    "imageUrl": "   https://m.media-amazon.com/images/I/41RpulOsOoL.jpg   ",
+    "description": "   Murder Mystery  Novel ",
+    "price": "   50   "
+  },
+  {
+    "id": "2",
+    "title": "The Alchemist",
+    "imageUrl": "https://m.media-amazon.com/images/I/416JeZoF8tL._SY445_SX342_.jpg",
+    "description": "Authored By Paulo Coehlo",
+    "price": "25"
+  }
+]

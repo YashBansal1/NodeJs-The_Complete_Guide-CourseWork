@@ -126,5 +126,27 @@ Views - These are the html files that are responsible for rendering the data tha
 Controllers - These are the functions that are responsible for handling the incoming requests and then sending the response. These are the connection point between the model and the views.
 It is split across our middleware functions.
 
-9. Dynamic Routes and Advanced Models
-   For get requests we can't put the data in post body but only pass it through the url but in post request we can pass the data directly through the post body.
+# 9. Dynamic Routes and Advanced Models
+
+For get requests we can't put the data in post body but only pass it through the url but in post request we can pass the data directly through the post body.
+
+# SQL Introduction
+
+SQL - Thinks in table, each table have field or columns and we fill the data for these fields in records or rows.
+We can have multiple tables and we can relate them to each other. One to one, many to one, many to many.
+We have a strong data schema for each table, to tell which type of data each field store data and all the data has to fits this schema.
+Queries are simply commands we used to interact with the database.
+Limitations for lots of (thousands) read & write queries per second.
+
+NoSQL - In NoSQL we also have databases, tables are called as collections as they are equivalent of table. In collection we don't find records but documents. Documents are very close to how we describe the data in javascript.
+NoSQL doesn't have a strong schema, we can store multiple documents with different structures in the same collection. In NoSQL we don't get any real relations, we go for the duplication of data.
+We don't have to join multiple tables together to get the data as there is no relations. Fast and efficient.
+Both horizontal and vertical scaling is possible
+Great performance for mass read & write requests.
+
+Horizontal vs Vertical Scaling -
+
+Horizontal scaling - Adding more servers to the existing cluster. (and merge Data into one database)
+Horizontal scaling is difficult for SQL, but vertical scaling is possible.
+
+Vertical scaling - Adding more resources to the existing server. (Improve server capacity/ hardware)
